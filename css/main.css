@@ -5,8 +5,8 @@ body {
 }
 
 .background {
-    width: 500px;
-    height: 300px;
+    width: 492px;
+    height: 292px;
     border: 4px solid #608094;
     border-radius: 10px;
     background: #16394c;
@@ -16,17 +16,22 @@ body {
     align-items: center;
 }
 
-.location, .main_left span {
+.location {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.location span, .main_left span {
     font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
-    padding-top: 10px;
 }
 
 .main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
 }
 
 .main_left {
