@@ -1,0 +1,91 @@
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    width: 500px;
+    height: 300px;
+    border: 4px solid #608094;
+    border-radius: 10px;
+    background: #16394c;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.location, .main_left span {
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 50px;
+}
+
+.main_left img {
+    width: 140px;
+}
+
+.main_left span {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 45px;
+}
+
+.main_center span {
+    /*position: absolute;*/
+    font-size: 32px;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    padding-right: 90px;
+}
+
+.main_right {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 13px;
+    gap: 5px;
+}
+
+.weeks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.temperature {
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.day img {
+    height: 70px;
+}
